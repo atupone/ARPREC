@@ -40,7 +40,7 @@ mp_real  erfc(const mp_real& arg)
 
     //current size     Previous Prec
     static int size=0, pPrec = -1;
-    static double eps[8] = {8,1,4-mp::n_words,1,0,0,0,0};
+    static double eps[8] = {8,1,4.0-mp::n_words,1,0,0,0,0};
     static mp_real eps_m = mp_real(eps);
     //Table containing exp(-k^2 * alpha^2)
     //but k=1 one starts at index 0
