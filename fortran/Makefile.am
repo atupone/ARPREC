@@ -37,7 +37,8 @@ $(MPMODULEM): mp_modm.o
 mp_modx.o: mp_mod.o
 $(MPMODULEX): mp_modx.o
 
-pkglib_DATA = $(MODULES)
+arpreclibdir = $(pkglibdir)
+arpreclib_DATA = $(MODULES)
 
 DEMO = pslq1$(EXEEXT) pslq2$(EXEEXT) pslq3$(EXEEXT) pslqm1$(EXEEXT) \
        pslqm2$(EXEEXT) pslqm3$(EXEEXT) quadgs$(EXEEXT) quaderf$(EXEEXT) \
