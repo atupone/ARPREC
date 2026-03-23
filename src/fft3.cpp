@@ -66,7 +66,7 @@ void mp_real::mpfft3(int is, int l, int ns, int m, int n,
   int x_start_1, y_start_1, x_start, y_start;
   int next_quarter, next_quarter_y;
   double u1[2], u2[2], u3[2];
-  register double z1[2], z2[2], z3[2], z4[2], z5[2];
+  double z1[2], z2[2], z3[2], z4[2], z5[2];
   
   // set initial parameters.
   int L = 1 << l;
