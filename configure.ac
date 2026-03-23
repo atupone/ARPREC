@@ -147,7 +147,7 @@ case "$enable_fma" in
     esac
   ;;
   no) 
-    ax_cxx_fma =
+    ax_cxx_fma=
   ;;
   *) 
     AX_CXX_FMA([$enable_fma])
